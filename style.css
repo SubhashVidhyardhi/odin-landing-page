@@ -1,0 +1,152 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top-part{
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    flex-wrap: wrap;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 50px;
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.footer {
+    width: auto;
+    display: flex;
+    background-color: #3882f6;
+    color: whitesmoke;
+    margin: 250px;
+    margin-top: 100px;
+    margin-left: 320px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 45px;
+    padding-top: 30px;
+}
+
+.footer-button {
+    border-radius: 7px;
+    height: 33px;
+    width: 130px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color: #3882f6;
+    color: whitesmoke;
+    margin-top: 40px;
+    margin-left: -40px;
+    font-size: 18px;
+}
+
+.footer-para {
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+.top-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.header-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.header-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #f9faf8;
+    font-size: 60px;
+    margin-left: 300px;
+    margin-top: 1px;
+    margin-left: 100px;
+}
+
+.main-img {
+    margin-top: -15px;
+}
+
+button {
+    color: whitesmoke;
+    background-color: #3882f6;
+    border-radius: 5.5px;
+    border-style: none;
+    height: 35px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.troo-footer {
+    margin-top: -170px;
+    background-color: #1f2937;
+    color: whitesmoke;
+    padding: 7px;
+    text-align: center;
+    
+}
+
+.quote-part {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+    padding: 40px;
+    text-align: center;
+}
+
+.quote {
+    text-align: end;
+}
+
+.info-part {
+    margin: 70px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 25px;
+    color: #0072bc;
+    flex-wrap: wrap;
+}
+
+.sub-img {
+    border-radius: 5.5px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #f9faf8;
+}
+
+.inner-footer {
+    flex: 1;
+}
